@@ -1,0 +1,13 @@
+
+
+Views add_user, edit_user, list_user, add_role,edit_role,list_role
+
+
+
+
+Banco de dados: db_petshop
+Tabela: staff
+
+
+Campos: id, name, active, added_on
+                  

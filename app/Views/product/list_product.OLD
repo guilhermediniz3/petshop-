@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="assets/plugins/bootstrap/5.1.1/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="assets/plugins/bootstrap/5.1.1/js/bootstrap.js"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" style="background-image:url('assets/images/banner.jpg');background-position:center; background-repeat:no-repeat; height: 340px;">
+
+            </div>
+        </div>
+        <div class="row distancia_top">
+            <div class="col-md-3" style="background-color:#FFFFFF">
+                <div>
+                    Playstation 5
+                </div>
+                <div>
+                    R$ 5000
+                </div>
+                <div>
+                    <img src="assets/images/KIT1.jpg">
+                </div>
+            </div>
+            <div class="col-md-3" style="background-color:#FFFFFF">
+                <div>
+                    Xbox
+                </div>
+                <div>
+                    R$ 4999
+                </div>
+                <div>
+                    <img src="assets/images/KIT2.JPG" style='width: 400px;'>
+                </div>
+            </div>
+            <div class="col-md-3" style="background-color:#FFFFFF">
+                teste3
+            
+            <div>
+                R$ 180,00
+            </div>
+            <div>
+                    <img src="assets/images/KIT3.JPG" style='width: 400px;'>
+                </div>
+                </div>
+            <div class="col-md-3" style="background-color:#FFFFFF">
+               <div class="titulo_produto"> teste4</div>
+                <div > kit 4</div>
+                <div>
+                    200,00
+                </div>
+                <div ><img src="assets/images/KIT4.JPG" style='width: 400px;'></div>
+                <div>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
