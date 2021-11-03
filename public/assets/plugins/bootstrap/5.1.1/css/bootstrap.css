@@ -11846,10 +11846,58 @@ a {
   text-decoration: none;
   border-bottom: 3px rgb(37, 2, 43);
 }
-.botaoNovoFuncionario{
+.botaoNovoFuncionario {
+  width: 50px;
+  border-right: 50px;
+}
 
-width: 50px;
-border-right: 50px;
+.editar-color {
+  color: rgba(38, 1, 43, 0.377);
+}
+.lixeira-color {
+  color: red;
+}
+.editarmargin {
+  background-color: rgb(80, 2, 76);
+  height: 3px;
+  margin-top: 2%;
+  margin-right: 1000px;
+  margin-left: 200px;
+  width: 70%;
+}
 
+.editarcontainer {
+  background-color: rgb(248, 215, 238);
+  height: 1000px;
+}
+.formeditarmargin {
+  background-color: rgb(247, 240, 246);
+  height: 500px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
 
+.inputsuplier {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  border: solid 1px;
+  border-radius: 20px;
+}
+.salvar {
+  background-color: rgb(67, 185, 67);
+  color: white;
+}
+.salvar:hover {
+  background-color: rgb(126, 247, 126);
+}
+.voltar {
+  background-color: rgb(191, 132, 233);
+  color: white;
+}
+.voltar:hover {
+  background-color: rgb(223, 196, 243);
 }

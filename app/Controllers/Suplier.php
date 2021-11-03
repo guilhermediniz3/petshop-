@@ -14,11 +14,11 @@ class Suplier extends BaseController
 	}
 	public function addSuplier()
 	{
-		return view('suplier/add_suplier');	
+		return view('suplier/add_suplier');
 	}
-	public function editPet()
+	public function editSuplier()
 		{
-		return view('product/edit_product');
+		return view('suplier/edit_suplier');
 	}
 
 }
