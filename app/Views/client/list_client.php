@@ -42,7 +42,7 @@
   <thead>
     <tr>
       <th scope="col">ID</th>
-      <th scope="col">CNPJ</th>
+      <th scope="col">CPF/CNPJ</th>
       <th scope="col">NOME</th>
       <th scope="col">TELEFONE</th>
     </tr>
@@ -56,7 +56,7 @@
       <td  >  <?php echo  $value['cnpj']; ?>  </td>
       <td >  <?php echo  $value['nome']; ?>  </td>
       <td >  <?php echo  $value['telefone']; ?> </td>
-      <td>  <a href="suplier/editSuplier"><span <i class="fa fa-pencil-square-o editar-color  "> </i>  </span> </a> <i class="fa fa-trash-o lixeira-color " ></i> </td>
+      <td>  <a href="client/editclient"><span <i class="fa fa-pencil-square-o editar-color  "> </i>  </span> </a> <i class="fa fa-trash-o lixeira-color " ></i> </td>
       </tr>
 
 

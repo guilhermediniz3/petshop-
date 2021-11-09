@@ -2,7 +2,7 @@
 
 use CodeIgniter\Model;
 
-class Suplier_model extends Model
+class Client_model extends Model
 {
     public function construct()
     {
@@ -10,17 +10,17 @@ class Suplier_model extends Model
     }
 
 
-    public function suplier()
+    public function client()
     {		$db = \Config\Database::connect($default);
-      $query   = $db->query('SELECT * FROM  suplier');
+      $query   = $db->query('SELECT * FROM  client');
       $results = $query->getResultArray();
       return $results;
     }
-    public function editarSuplier()
+    public function editarClient()
 { 
 
 }
-public function deletarSuplier()
+public function deletarClient()
 {
 
   
